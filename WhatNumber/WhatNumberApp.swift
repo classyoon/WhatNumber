@@ -11,8 +11,7 @@ import SwiftData
 @main
 struct WhatNumberApp: App {
     var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
+        let schema = Schema([CreditCard.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +24,7 @@ struct WhatNumberApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CreditCardListView()
         }
         .modelContainer(sharedModelContainer)
     }

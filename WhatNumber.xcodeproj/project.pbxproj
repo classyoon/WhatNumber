@@ -15,6 +15,8 @@
 		CAC3065D2C023ADF009347C7 /* WhatNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC3065C2C023ADF009347C7 /* WhatNumberTests.swift */; };
 		CAC306672C023ADF009347C7 /* WhatNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC306662C023ADF009347C7 /* WhatNumberUITests.swift */; };
 		CAC306692C023ADF009347C7 /* WhatNumberUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC306682C023ADF009347C7 /* WhatNumberUITestsLaunchTests.swift */; };
+		CAC306762C023B5E009347C7 /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC306752C023B5E009347C7 /* CreditView.swift */; };
+		CAC306782C0240D9009347C7 /* CreditCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC306772C0240D9009347C7 /* CreditCardListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		CAC306622C023ADF009347C7 /* WhatNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC306662C023ADF009347C7 /* WhatNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatNumberUITests.swift; sourceTree = "<group>"; };
 		CAC306682C023ADF009347C7 /* WhatNumberUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatNumberUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAC306752C023B5E009347C7 /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		CAC306772C0240D9009347C7 /* CreditCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			children = (
 				CAC306492C023ADE009347C7 /* WhatNumberApp.swift */,
 				CAC3064B2C023ADE009347C7 /* ContentView.swift */,
+				CAC306752C023B5E009347C7 /* CreditView.swift */,
+				CAC306772C0240D9009347C7 /* CreditCardListView.swift */,
 				CAC3064D2C023ADE009347C7 /* Item.swift */,
 				CAC3064F2C023ADF009347C7 /* Assets.xcassets */,
 				CAC306512C023ADF009347C7 /* Preview Content */,
@@ -260,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC306782C0240D9009347C7 /* CreditCardListView.swift in Sources */,
 				CAC3064C2C023ADE009347C7 /* ContentView.swift in Sources */,
+				CAC306762C023B5E009347C7 /* CreditView.swift in Sources */,
 				CAC3064E2C023ADE009347C7 /* Item.swift in Sources */,
 				CAC3064A2C023ADE009347C7 /* WhatNumberApp.swift in Sources */,
 			);
