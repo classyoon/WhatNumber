@@ -10,11 +10,15 @@ import SwiftData
 
 struct CreditView: View {
     @Bindable var creditCard : CreditCard
+    var samplePeople : [Person] = [Person(name: "Sven"), Person(name: "Joe"), Person(name: "Mary")]
     var body: some View {
         VStack{
             TextField("Credit Name", text: $creditCard.name)
             TextField("Credit Number", text: $creditCard.number)
-            TextField("Who can acess", text: $creditCard.whoIsAllowed)
+            HStack{
+                TextField("Who can acess", text: $creditCard.whoIsAllowed)
+                Menu(<#T##titleKey: LocalizedStringKey##LocalizedStringKey#>, content: PeopleListView(_peopleList: samplePeople))
+            }
         }
         
     }
@@ -35,6 +39,7 @@ class CreditCard {
         self.whoIsAllowed = ""
     }
 }
+
 
 #Preview {
     let config = ModelConfiguration(isStoredInMemoryOnly: true)

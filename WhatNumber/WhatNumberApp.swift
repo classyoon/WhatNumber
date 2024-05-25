@@ -11,7 +11,7 @@ import SwiftData
 @main
 struct WhatNumberApp: App {
     var sharedModelContainer: ModelContainer = {
-        let schema = Schema([CreditCard.self
+        let schema = Schema([CreditCard.self, Person.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
