@@ -16,7 +16,7 @@ struct PeopleListView: View {
         NavigationStack{
             List {
                 ForEach(peopleList){ person in
-                    PeopleView(person: person)
+                    PersonView(person: person)
                 }
                 //.onDelete(perform: deleteItems)
             }.navigationTitle("Users")

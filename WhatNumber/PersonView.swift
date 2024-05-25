@@ -1,14 +1,15 @@
 //
-//  PeopleView.swift
+//  PersonView.swift
 //  WhatNumber
 //
 //  Created by Conner Yoon on 5/25/24.
 //
 
+
 import SwiftUI
 import SwiftData
 
-struct PeopleView: View {
+struct PersonView: View {
     @Bindable var person : Person
     var body: some View {
         TextField("Type Person", text: $person.name)
@@ -31,5 +32,5 @@ class Person : Hashable {
     let container = try! ModelContainer(for: Person.self, configurations: config)
     @State var testPerson = Person()
     container.mainContext.insert(testPerson)
-    return PeopleView(person: testPerson)
+    return PersonView(person: testPerson)
 }
