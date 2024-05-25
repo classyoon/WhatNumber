@@ -15,10 +15,9 @@ struct CreditView: View {
         VStack{
             TextField("Credit Name", text: $creditCard.name)
             TextField("Credit Number", text: $creditCard.number)
-            HStack{
+           
                 TextField("Who can acess", text: $creditCard.whoIsAllowed)
-                Menu(<#T##titleKey: LocalizedStringKey##LocalizedStringKey#>, content: PeopleListView(_peopleList: samplePeople))
-            }
+    
         }
         
     }

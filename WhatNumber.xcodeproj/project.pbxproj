@@ -17,6 +17,7 @@
 		CAC306782C0240D9009347C7 /* CreditCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC306772C0240D9009347C7 /* CreditCardListView.swift */; };
 		CAC3067A2C024318009347C7 /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC306792C024318009347C7 /* PeopleListView.swift */; };
 		CAC3067C2C0243EE009347C7 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC3067B2C0243EE009347C7 /* PeopleView.swift */; };
+		CAC306802C02479E009347C7 /* UserIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC3067F2C02479E009347C7 /* UserIconView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		CAC306772C0240D9009347C7 /* CreditCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardListView.swift; sourceTree = "<group>"; };
 		CAC306792C024318009347C7 /* PeopleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListView.swift; sourceTree = "<group>"; };
 		CAC3067B2C0243EE009347C7 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		CAC3067F2C02479E009347C7 /* UserIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIconView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				CAC306752C023B5E009347C7 /* CreditView.swift */,
 				CAC3067B2C0243EE009347C7 /* PeopleView.swift */,
 				CAC306792C024318009347C7 /* PeopleListView.swift */,
+				CAC3067F2C02479E009347C7 /* UserIconView.swift */,
 				CAC306772C0240D9009347C7 /* CreditCardListView.swift */,
 				CAC3064F2C023ADF009347C7 /* Assets.xcassets */,
 				CAC306512C023ADF009347C7 /* Preview Content */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC306802C02479E009347C7 /* UserIconView.swift in Sources */,
 				CAC306782C0240D9009347C7 /* CreditCardListView.swift in Sources */,
 				CAC3067C2C0243EE009347C7 /* PeopleView.swift in Sources */,
 				CAC3067A2C024318009347C7 /* PeopleListView.swift in Sources */,
