@@ -17,6 +17,7 @@
 		CAC306782C0240D9009347C7 /* CreditCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC306772C0240D9009347C7 /* CreditCardListView.swift */; };
 		CAC3067A2C024318009347C7 /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC306792C024318009347C7 /* PeopleListView.swift */; };
 		CAC306822C024BE6009347C7 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC306812C024BE6009347C7 /* PersonView.swift */; };
+		CAC306862C025027009347C7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC306852C025027009347C7 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		CAC306772C0240D9009347C7 /* CreditCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardListView.swift; sourceTree = "<group>"; };
 		CAC306792C024318009347C7 /* PeopleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListView.swift; sourceTree = "<group>"; };
 		CAC306812C024BE6009347C7 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		CAC306852C025027009347C7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				CAC306492C023ADE009347C7 /* WhatNumberApp.swift */,
 				CAC306752C023B5E009347C7 /* CreditView.swift */,
+				CAC306852C025027009347C7 /* Models.swift */,
 				CAC306792C024318009347C7 /* PeopleListView.swift */,
 				CAC306812C024BE6009347C7 /* PersonView.swift */,
 				CAC306772C0240D9009347C7 /* CreditCardListView.swift */,
@@ -269,6 +272,7 @@
 				CAC306822C024BE6009347C7 /* PersonView.swift in Sources */,
 				CAC306782C0240D9009347C7 /* CreditCardListView.swift in Sources */,
 				CAC3067A2C024318009347C7 /* PeopleListView.swift in Sources */,
+				CAC306862C025027009347C7 /* Models.swift in Sources */,
 				CAC306762C023B5E009347C7 /* CreditView.swift in Sources */,
 				CAC3064A2C023ADE009347C7 /* WhatNumberApp.swift in Sources */,
 			);

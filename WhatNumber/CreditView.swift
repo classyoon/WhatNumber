@@ -22,23 +22,6 @@ struct CreditView: View {
         
     }
 }
-@Model
-class CreditCard {
-    var name : String = ""
-    var number : String = ""
-    var whoIsAllowed : String = ""
-    init(name: String, number: String, whoIsAllowed: String) {
-        self.name = name
-        self.number = number
-        self.whoIsAllowed = whoIsAllowed
-    }
-    init(){
-        self.name = ""
-        self.number = ""
-        self.whoIsAllowed = ""
-    }
-}
-
 
 #Preview {
     let config = ModelConfiguration(isStoredInMemoryOnly: true)

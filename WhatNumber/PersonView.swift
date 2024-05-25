@@ -15,16 +15,7 @@ struct PersonView: View {
         TextField("Type Person", text: $person.name)
     }
 }
-@Model
-class Person : Hashable {
-    var name : String = ""
-    init(name: String) {
-        self.name = name
-    }
-    init(){
-        self.name = ""
-    }
-}
+
 
 
 #Preview {
